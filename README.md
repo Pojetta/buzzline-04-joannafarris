@@ -264,3 +264,24 @@ Live Line Chart with Alert (Kafka CSV streaming)
 - Closing the Kafka terminal (Kafka stops).
 - Running your app without the virtual environment activated.
 - Forgetting to re-activate the venv in a new terminal/tab.
+
+## My Custom Consumer
+
+### What it does
+I created a new consumer called `project_consumer_joannafarris.py` inside the `consumers` folder.  
+This consumer ingests live JSON messages from the producer and processes them in real time.  
+
+### Insight Focus
+This consumer focuses on **keyword frequency** — specifically, how often each keyword appears in the streaming messages.  
+This is interesting because it highlights which words or topics dominate the conversation as new messages arrive.  
+
+### Chart Type
+I will use a **bar chart** to visualize keyword counts.  
+A bar chart makes it easy to compare which keywords are mentioned most frequently as the stream continues.  
+
+### How to Run
+
+Run the producer (provided, do not modify):
+```bash
+python3 -m producers.json_producer_case
+
