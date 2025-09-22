@@ -15,10 +15,11 @@ import sys
 import time
 import pathlib
 from collections import defaultdict
-
 import numpy as np
-from matplotlib.colors import ListedColormap
+
 import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
+from matplotlib.colors import ListedColormap
 from utils.utils_logger import logger
 
 
@@ -27,8 +28,8 @@ from utils.utils_logger import logger
 #####################################
 
 # Slow things way down so terminal output is readable
-VISUAL_PAUSE_SECS = 2.0   # pause after each processed message
-IDLE_POLL_SECS   = 1.0    # wait this long when no new messages
+VISUAL_PAUSE_SECS = 0   # pause after each processed message
+IDLE_POLL_SECS   = 0    # wait this long when no new messages
 
 PROJECT_ROOT = pathlib.Path(__file__).parent.parent
 DATA_FOLDER = PROJECT_ROOT.joinpath("data")
@@ -53,17 +54,28 @@ keyword_counts_by_author = defaultdict(lambda: defaultdict(int))
 plt.ion()
 fig, ax = plt.subplots()
 
-# --- Colors: Inferno discrete sampling ---
-COLORMAP = plt.get_cmap("inferno")
+PALETTE = [
+    "#ff7e0ec2",  # vivid orange
+    "#d62728",  # red
+    "#9467bd",  # purple
+    "#e6550d",  # orange-red
+    "#cc4778",  # magenta
+    "#8e0152",  # crimson-magenta
+    "#efd511",  # deep orange-brown
+    "#4b1a54",  # deep purple
+    "#e51082b7",  # fuchsia
+    "#f77e136f",  # burnt orange
+    "#e7bb0b",  # wine
+]
+
 keyword_color = {}
 def color_for(kw: str):
     if kw not in keyword_color:
-        idx = len(keyword_color)
-        steps = 12
-        # clip extremes a bit to avoid near-black/near-white
-        t = 0.08 + (idx % steps) * (0.80 / max(1, steps - 1))  # 0.08..0.88
-        keyword_color[kw] = COLORMAP(t)
+        keyword_color[kw] = PALETTE[len(keyword_color) % len(PALETTE)]
     return keyword_color[kw]
+
+# Legend order control (False = bottom→top, True = top→bottom)
+LEGEND_TOP_FIRST = False
 
 
 def update_chart_all():
@@ -89,7 +101,7 @@ def update_chart_all():
 
     for kw in keywords:
         heights = [keyword_counts_by_author[a].get(kw, 0) for a in authors]
-        ax.bar(x, heights, bottom=bottoms, label=kw, color=color_for(kw))
+        ax.bar(x, heights, bottom=bottoms, label=kw, color=color_for(kw), edgecolor="black", linewidth=0.3)
         # update bottoms element-wise
         bottoms = [b + h for b, h in zip(bottoms, heights)]
 
@@ -98,11 +110,17 @@ def update_chart_all():
     ax.set_title("Real-Time Keyword Frequency per Author (Stacked)")
     ax.set_xticks(x)
     ax.set_xticklabels(authors, rotation=45, ha="right")
-    ax.legend(title="Keywords", loc="upper left", bbox_to_anchor=(1.02, 1), borderaxespad=0)
+
+    # Legend that matches the stack order
+    kw_order = keywords if not LEGEND_TOP_FIRST else list(reversed(keywords))
+    handles = [Patch(facecolor=color_for(kw), edgecolor="black", label=kw) for kw in kw_order]
+    ax.legend(handles=handles, title="Keywords",
+              loc="upper left", bbox_to_anchor=(1.02, 1), borderaxespad=0)
 
     plt.tight_layout()
     plt.draw()
     plt.pause(0.01)
+
 
 #####################################
 # Process one message
@@ -140,7 +158,7 @@ def process_message(message: str) -> None:
     print("Chart updated.\n")
 
     # 6) Slow down so you can read
-    time.sleep(VISUAL_PAUSE_SECS)
+    #time.sleep(VISUAL_PAUSE_SECS)
 
 
 #####################################
