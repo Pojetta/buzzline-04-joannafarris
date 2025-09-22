@@ -1,339 +1,116 @@
-2025-09-20 04:49:36 | INFO | Processed JSON message: {'message': 'I just tried a trick! It was amazing.', 'author': 'Charlie'}
-2025-09-20 04:49:36 | INFO | Message received from author: Charlie
-2025-09-20 04:49:36 | INFO | Updated author counts: {'Charlie': 24, 'Bob': 24, 'Eve': 19, 'Alice': 25}
-2025-09-20 04:49:36 | INFO | Chart updated successfully for message: {"message": "I just tried a trick! It was amazing.", "author": "Charlie"}
-
-2025-09-20 04:49:39 | INFO | Processed JSON message: {'message': 'I just found an app! It was exciting.', 'author': 'Charlie'}
-2025-09-20 04:49:39 | INFO | Message received from author: Charlie
-2025-09-20 04:49:39 | INFO | Updated author counts: {'Charlie': 25, 'Bob': 24, 'Eve': 19, 'Alice': 25}
-2025-09-20 04:49:40 | INFO | Chart updated successfully for message: {"message": "I just found an app! It was exciting.", "author": "Charlie"}
-
-2025-09-20 04:49:42 | INFO | Processed JSON message: {'message': 'I just loved an app! It was funny.', 'author': 'Alice'}
-2025-09-20 04:49:42 | INFO | Message received from author: Alice
-2025-09-20 04:49:42 | INFO | Updated author counts: {'Charlie': 25, 'Bob': 24, 'Eve': 19, 'Alice': 26}
-2025-09-20 04:49:42 | INFO | Chart updated successfully for message: {"message": "I just loved an app! It was funny.", "author": "Alice"}
-
-2025-09-20 04:49:45 | INFO | Processed JSON message: {'message': 'I just tried an app! It was amazing.', 'author': 'Bob'}
-2025-09-20 04:49:45 | INFO | Message received from author: Bob
-2025-09-20 04:49:45 | INFO | Updated author counts: {'Charlie': 25, 'Bob': 25, 'Eve': 19, 'Alice': 26}
-2025-09-20 04:49:45 | INFO | Chart updated successfully for message: {"message": "I just tried an app! It was amazing.", "author": "Bob"}
-
-2025-09-20 04:49:48 | INFO | Processed JSON message: {'message': 'I just saw a trick! It was amazing.', 'author': 'Bob'}
-2025-09-20 04:49:48 | INFO | Message received from author: Bob
-2025-09-20 04:49:48 | INFO | Updated author counts: {'Charlie': 25, 'Bob': 26, 'Eve': 19, 'Alice': 26}
-2025-09-20 04:49:49 | INFO | Chart updated successfully for message: {"message": "I just saw a trick! It was amazing.", "author": "Bob"}
-
-2025-09-20 04:49:51 | INFO | Processed JSON message: {'message': 'I just saw a trick! It was exciting.', 'author': 'Eve'}
-2025-09-20 04:49:51 | INFO | Message received from author: Eve
-2025-09-20 04:49:51 | INFO | Updated author counts: {'Charlie': 25, 'Bob': 26, 'Eve': 20, 'Alice': 26}
-2025-09-20 04:49:51 | INFO | Chart updated successfully for message: {"message": "I just saw a trick! It was exciting.", "author": "Eve"}
-
-2025-09-20 04:49:54 | INFO | Processed JSON message: {'message': 'I just found a movie! It was exciting.', 'author': 'Eve'}
-2025-09-20 04:49:54 | INFO | Message received from author: Eve
-2025-09-20 04:49:54 | INFO | Updated author counts: {'Charlie': 25, 'Bob': 26, 'Eve': 21, 'Alice': 26}
-2025-09-20 04:49:55 | INFO | Chart updated successfully for message: {"message": "I just found a movie! It was exciting.", "author": "Eve"}
-
-2025-09-20 04:49:57 | INFO | Processed JSON message: {'message': 'I just tried a movie! It was funny.', 'author': 'Charlie'}
-2025-09-20 04:49:57 | INFO | Message received from author: Charlie
-2025-09-20 04:49:57 | INFO | Updated author counts: {'Charlie': 26, 'Bob': 26, 'Eve': 21, 'Alice': 26}
-2025-09-20 04:49:57 | INFO | Chart updated successfully for message: {"message": "I just tried a movie! It was funny.", "author": "Charlie"}
-
-2025-09-20 04:50:00 | INFO | Processed JSON message: {'message': 'I just loved a movie! It was exciting.', 'author': 'Bob'}
-2025-09-20 04:50:00 | INFO | Message received from author: Bob
-2025-09-20 04:50:00 | INFO | Updated author counts: {'Charlie': 26, 'Bob': 27, 'Eve': 21, 'Alice': 26}
-2025-09-20 04:50:00 | INFO | Chart updated successfully for message: {"message": "I just loved a movie! It was exciting.", "author": "Bob"}
-
-2025-09-20 04:50:03 | INFO | Processed JSON message: {'message': 'I just shared a trick! It was weird.', 'author': 'Eve'}
-2025-09-20 04:50:03 | INFO | Message received from author: Eve
-2025-09-20 04:50:03 | INFO | Updated author counts: {'Charlie': 26, 'Bob': 27, 'Eve': 22, 'Alice': 26}
-2025-09-20 04:50:04 | INFO | Chart updated successfully for message: {"message": "I just shared a trick! It was weird.", "author": "Eve"}
-
-2025-09-20 04:50:06 | INFO | Processed JSON message: {'message': 'I just saw a trick! It was amazing.', 'author': 'Alice'}
-2025-09-20 04:50:06 | INFO | Message received from author: Alice
-2025-09-20 04:50:06 | INFO | Updated author counts: {'Charlie': 26, 'Bob': 27, 'Eve': 22, 'Alice': 27}
-2025-09-20 04:50:06 | INFO | Chart updated successfully for message: {"message": "I just saw a trick! It was amazing.", "author": "Alice"}
-
-2025-09-20 04:50:09 | INFO | Processed JSON message: {'message': 'I just saw a story! It was exciting.', 'author': 'Charlie'}
-2025-09-20 04:50:09 | INFO | Message received from author: Charlie
-2025-09-20 04:50:09 | INFO | Updated author counts: {'Charlie': 27, 'Bob': 27, 'Eve': 22, 'Alice': 27}
-2025-09-20 04:50:09 | INFO | Chart updated successfully for message: {"message": "I just saw a story! It was exciting.", "author": "Charlie"}
-
-2025-09-20 04:50:12 | INFO | Processed JSON message: {'message': 'I just saw a trick! It was exciting.', 'author': 'Bob'}
-2025-09-20 04:50:12 | INFO | Message received from author: Bob
-2025-09-20 04:50:12 | INFO | Updated author counts: {'Charlie': 27, 'Bob': 28, 'Eve': 22, 'Alice': 27}
-2025-09-20 04:50:13 | INFO | Chart updated successfully for message: {"message": "I just saw a trick! It was exciting.", "author": "Bob"}
-
-2025-09-20 04:50:15 | INFO | Processed JSON message: {'message': 'I just found a meme! It was exciting.', 'author': 'Charlie'}
-2025-09-20 04:50:15 | INFO | Message received from author: Charlie
-2025-09-20 04:50:15 | INFO | Updated author counts: {'Charlie': 28, 'Bob': 28, 'Eve': 22, 'Alice': 27}
-2025-09-20 04:50:15 | INFO | Chart updated successfully for message: {"message": "I just found a meme! It was exciting.", "author": "Charlie"}
-
-2025-09-20 04:50:18 | INFO | Processed JSON message: {'message': 'I just tried a story! It was amazing.', 'author': 'Charlie'}
-2025-09-20 04:50:18 | INFO | Message received from author: Charlie
-2025-09-20 04:50:18 | INFO | Updated author counts: {'Charlie': 29, 'Bob': 28, 'Eve': 22, 'Alice': 27}
-2025-09-20 04:50:18 | INFO | Chart updated successfully for message: {"message": "I just tried a story! It was amazing.", "author": "Charlie"}
-
-2025-09-20 04:50:21 | INFO | Processed JSON message: {'message': 'I just shared a movie! It was boring.', 'author': 'Charlie'}
-2025-09-20 04:50:21 | INFO | Message received from author: Charlie
-2025-09-20 04:50:21 | INFO | Updated author counts: {'Charlie': 30, 'Bob': 28, 'Eve': 22, 'Alice': 27}
-2025-09-20 04:50:22 | INFO | Chart updated successfully for message: {"message": "I just shared a movie! It was boring.", "author": "Charlie"}
-
-2025-09-20 04:50:24 | INFO | Processed JSON message: {'message': 'I just loved a movie! It was amazing.', 'author': 'Alice'}
-2025-09-20 04:50:24 | INFO | Message received from author: Alice
-2025-09-20 04:50:24 | INFO | Updated author counts: {'Charlie': 30, 'Bob': 28, 'Eve': 22, 'Alice': 28}
-2025-09-20 04:50:24 | INFO | Chart updated successfully for message: {"message": "I just loved a movie! It was amazing.", "author": "Alice"}
-
-2025-09-20 04:50:27 | INFO | Processed JSON message: {'message': 'I just found an app! It was boring.', 'author': 'Charlie'}
-2025-09-20 04:50:27 | INFO | Message received from author: Charlie
-2025-09-20 04:50:27 | INFO | Updated author counts: {'Charlie': 31, 'Bob': 28, 'Eve': 22, 'Alice': 28}
-2025-09-20 04:50:28 | INFO | Chart updated successfully for message: {"message": "I just found an app! It was boring.", "author": "Charlie"}
-
-2025-09-20 04:50:31 | INFO | Processed JSON message: {'message': 'I just tried a trick! It was weird.', 'author': 'Bob'}
-2025-09-20 04:50:31 | INFO | Message received from author: Bob
-2025-09-20 04:50:31 | INFO | Updated author counts: {'Charlie': 31, 'Bob': 29, 'Eve': 22, 'Alice': 28}
-2025-09-20 04:50:31 | INFO | Chart updated successfully for message: {"message": "I just tried a trick! It was weird.", "author": "Bob"}
-
-2025-09-20 04:50:33 | INFO | Processed JSON message: {'message': 'I just loved a meme! It was amazing.', 'author': 'Eve'}
-2025-09-20 04:50:33 | INFO | Message received from author: Eve
-2025-09-20 04:50:33 | INFO | Updated author counts: {'Charlie': 31, 'Bob': 29, 'Eve': 23, 'Alice': 28}
-2025-09-20 04:50:33 | INFO | Chart updated successfully for message: {"message": "I just loved a meme! It was amazing.", "author": "Eve"}
-
-2025-09-20 04:50:36 | INFO | Processed JSON message: {'message': 'I just found a trick! It was amazing.', 'author': 'Eve'}
-2025-09-20 04:50:36 | INFO | Message received from author: Eve
-2025-09-20 04:50:36 | INFO | Updated author counts: {'Charlie': 31, 'Bob': 29, 'Eve': 24, 'Alice': 28}
-2025-09-20 04:50:37 | INFO | Chart updated successfully for message: {"message": "I just found a trick! It was amazing.", "author": "Eve"}
-
-2025-09-20 04:50:40 | INFO | Processed JSON message: {'message': 'I just saw a meme! It was funny.', 'author': 'Eve'}
-2025-09-20 04:50:40 | INFO | Message received from author: Eve
-2025-09-20 04:50:40 | INFO | Updated author counts: {'Charlie': 31, 'Bob': 29, 'Eve': 25, 'Alice': 28}
-2025-09-20 04:50:40 | INFO | Chart updated successfully for message: {"message": "I just saw a meme! It was funny.", "author": "Eve"}
-
-2025-09-20 04:50:42 | INFO | Processed JSON message: {'message': 'I just found a trick! It was boring.', 'author': 'Alice'}
-2025-09-20 04:50:42 | INFO | Message received from author: Alice
-2025-09-20 04:50:42 | INFO | Updated author counts: {'Charlie': 31, 'Bob': 29, 'Eve': 25, 'Alice': 29}
-2025-09-20 04:50:42 | INFO | Chart updated successfully for message: {"message": "I just found a trick! It was boring.", "author": "Alice"}
-
-2025-09-20 04:50:45 | INFO | Processed JSON message: {'message': 'I just shared a story! It was weird.', 'author': 'Charlie'}
-2025-09-20 04:50:45 | INFO | Message received from author: Charlie
-2025-09-20 04:50:45 | INFO | Updated author counts: {'Charlie': 32, 'Bob': 29, 'Eve': 25, 'Alice': 29}
-2025-09-20 04:50:46 | INFO | Chart updated successfully for message: {"message": "I just shared a story! It was weird.", "author": "Charlie"}
-
-2025-09-20 04:50:49 | INFO | Processed JSON message: {'message': 'I just found a story! It was weird.', 'author': 'Charlie'}
-2025-09-20 04:50:49 | INFO | Message received from author: Charlie
-2025-09-20 04:50:49 | INFO | Updated author counts: {'Charlie': 33, 'Bob': 29, 'Eve': 25, 'Alice': 29}
-2025-09-20 04:50:49 | INFO | Chart updated successfully for message: {"message": "I just found a story! It was weird.", "author": "Charlie"}
-
-2025-09-20 04:50:51 | INFO | Processed JSON message: {'message': 'I just found an app! It was boring.', 'author': 'Bob'}
-2025-09-20 04:50:51 | INFO | Message received from author: Bob
-2025-09-20 04:50:51 | INFO | Updated author counts: {'Charlie': 33, 'Bob': 30, 'Eve': 25, 'Alice': 29}
-2025-09-20 04:50:51 | INFO | Chart updated successfully for message: {"message": "I just found an app! It was boring.", "author": "Bob"}
-
-2025-09-20 04:50:54 | INFO | Processed JSON message: {'message': 'I just found a story! It was amazing.', 'author': 'Alice'}
-2025-09-20 04:50:54 | INFO | Message received from author: Alice
-2025-09-20 04:50:54 | INFO | Updated author counts: {'Charlie': 33, 'Bob': 30, 'Eve': 25, 'Alice': 30}
-2025-09-20 04:50:55 | INFO | Chart updated successfully for message: {"message": "I just found a story! It was amazing.", "author": "Alice"}
-
-2025-09-20 04:50:58 | INFO | Processed JSON message: {'message': 'I just saw a story! It was funny.', 'author': 'Eve'}
-2025-09-20 04:50:58 | INFO | Message received from author: Eve
-2025-09-20 04:50:58 | INFO | Updated author counts: {'Charlie': 33, 'Bob': 30, 'Eve': 26, 'Alice': 30}
-2025-09-20 04:50:58 | INFO | Chart updated successfully for message: {"message": "I just saw a story! It was funny.", "author": "Eve"}
-
-2025-09-20 04:51:00 | INFO | Processed JSON message: {'message': 'I just shared a story! It was weird.', 'author': 'Bob'}
-2025-09-20 04:51:00 | INFO | Message received from author: Bob
-2025-09-20 04:51:00 | INFO | Updated author counts: {'Charlie': 33, 'Bob': 31, 'Eve': 26, 'Alice': 30}
-2025-09-20 04:51:00 | INFO | Chart updated successfully for message: {"message": "I just shared a story! It was weird.", "author": "Bob"}
-
-2025-09-20 04:51:03 | INFO | Processed JSON message: {'message': 'I just saw a story! It was exciting.', 'author': 'Bob'}
-2025-09-20 04:51:03 | INFO | Message received from author: Bob
-2025-09-20 04:51:03 | INFO | Updated author counts: {'Charlie': 33, 'Bob': 32, 'Eve': 26, 'Alice': 30}
-2025-09-20 04:51:04 | INFO | Chart updated successfully for message: {"message": "I just saw a story! It was exciting.", "author": "Bob"}
-
-2025-09-20 04:51:07 | INFO | Processed JSON message: {'message': 'I just saw an app! It was boring.', 'author': 'Eve'}
-2025-09-20 04:51:07 | INFO | Message received from author: Eve
-2025-09-20 04:51:07 | INFO | Updated author counts: {'Charlie': 33, 'Bob': 32, 'Eve': 27, 'Alice': 30}
-2025-09-20 04:51:07 | INFO | Chart updated successfully for message: {"message": "I just saw an app! It was boring.", "author": "Eve"}
-
-2025-09-20 04:51:09 | INFO | Processed JSON message: {'message': 'I just shared a story! It was weird.', 'author': 'Eve'}
-2025-09-20 04:51:09 | INFO | Message received from author: Eve
-2025-09-20 04:51:09 | INFO | Updated author counts: {'Charlie': 33, 'Bob': 32, 'Eve': 28, 'Alice': 30}
-2025-09-20 04:51:09 | INFO | Chart updated successfully for message: {"message": "I just shared a story! It was weird.", "author": "Eve"}
-
-2025-09-20 04:51:12 | INFO | Processed JSON message: {'message': 'I just tried a movie! It was exciting.', 'author': 'Alice'}
-2025-09-20 04:51:12 | INFO | Message received from author: Alice
-2025-09-20 04:51:12 | INFO | Updated author counts: {'Charlie': 33, 'Bob': 32, 'Eve': 28, 'Alice': 31}
-2025-09-20 04:51:12 | INFO | Chart updated successfully for message: {"message": "I just tried a movie! It was exciting.", "author": "Alice"}
-
-2025-09-20 04:51:15 | INFO | Processed JSON message: {'message': 'I just shared a movie! It was exciting.', 'author': 'Charlie'}
-2025-09-20 04:51:15 | INFO | Message received from author: Charlie
-2025-09-20 04:51:15 | INFO | Updated author counts: {'Charlie': 34, 'Bob': 32, 'Eve': 28, 'Alice': 31}
-2025-09-20 04:51:15 | INFO | Chart updated successfully for message: {"message": "I just shared a movie! It was exciting.", "author": "Charlie"}
-
-2025-09-20 04:51:18 | INFO | Processed JSON message: {'message': 'I just tried a trick! It was boring.', 'author': 'Charlie'}
-2025-09-20 04:51:18 | INFO | Message received from author: Charlie
-2025-09-20 04:51:18 | INFO | Updated author counts: {'Charlie': 35, 'Bob': 32, 'Eve': 28, 'Alice': 31}
-2025-09-20 04:51:18 | INFO | Chart updated successfully for message: {"message": "I just tried a trick! It was boring.", "author": "Charlie"}
-
-2025-09-20 04:51:21 | INFO | Processed JSON message: {'message': 'I just found a meme! It was weird.', 'author': 'Bob'}
-2025-09-20 04:51:22 | INFO | Message received from author: Bob
-2025-09-20 04:51:22 | INFO | Updated author counts: {'Charlie': 35, 'Bob': 33, 'Eve': 28, 'Alice': 31}
-2025-09-20 04:51:22 | INFO | Chart updated successfully for message: {"message": "I just found a meme! It was weird.", "author": "Bob"}
-
-2025-09-20 04:51:25 | INFO | Processed JSON message: {'message': 'I just tried a trick! It was exciting.', 'author': 'Eve'}
-2025-09-20 04:51:25 | INFO | Message received from author: Eve
-2025-09-20 04:51:25 | INFO | Updated author counts: {'Charlie': 35, 'Bob': 33, 'Eve': 29, 'Alice': 31}
-2025-09-20 04:51:25 | INFO | Chart updated successfully for message: {"message": "I just tried a trick! It was exciting.", "author": "Eve"}
-
-2025-09-20 04:51:28 | INFO | Processed JSON message: {'message': 'I just tried an app! It was exciting.', 'author': 'Alice'}
-2025-09-20 04:51:28 | INFO | Message received from author: Alice
-2025-09-20 04:51:28 | INFO | Updated author counts: {'Charlie': 35, 'Bob': 33, 'Eve': 29, 'Alice': 32}
-2025-09-20 04:51:28 | INFO | Chart updated successfully for message: {"message": "I just tried an app! It was exciting.", "author": "Alice"}
-
-2025-09-20 04:51:31 | INFO | Processed JSON message: {'message': 'I just loved a trick! It was exciting.', 'author': 'Charlie'}
-2025-09-20 04:51:31 | INFO | Message received from author: Charlie
-2025-09-20 04:51:31 | INFO | Updated author counts: {'Charlie': 36, 'Bob': 33, 'Eve': 29, 'Alice': 32}
-2025-09-20 04:51:31 | INFO | Chart updated successfully for message: {"message": "I just loved a trick! It was exciting.", "author": "Charlie"}
-
-2025-09-20 04:51:33 | INFO | Processed JSON message: {'message': 'I just found a meme! It was funny.', 'author': 'Eve'}
-2025-09-20 04:51:33 | INFO | Message received from author: Eve
-2025-09-20 04:51:33 | INFO | Updated author counts: {'Charlie': 36, 'Bob': 33, 'Eve': 30, 'Alice': 32}
-2025-09-20 04:51:33 | INFO | Chart updated successfully for message: {"message": "I just found a meme! It was funny.", "author": "Eve"}
-
-2025-09-20 04:51:36 | INFO | Processed JSON message: {'message': 'I just found a trick! It was exciting.', 'author': 'Bob'}
-2025-09-20 04:51:36 | INFO | Message received from author: Bob
-2025-09-20 04:51:36 | INFO | Updated author counts: {'Charlie': 36, 'Bob': 34, 'Eve': 30, 'Alice': 32}
-2025-09-20 04:51:36 | INFO | Chart updated successfully for message: {"message": "I just found a trick! It was exciting.", "author": "Bob"}
-
-2025-09-20 04:51:39 | INFO | Processed JSON message: {'message': 'I just loved an app! It was boring.', 'author': 'Alice'}
-2025-09-20 04:51:39 | INFO | Message received from author: Alice
-2025-09-20 04:51:39 | INFO | Updated author counts: {'Charlie': 36, 'Bob': 34, 'Eve': 30, 'Alice': 33}
-2025-09-20 04:51:39 | INFO | Chart updated successfully for message: {"message": "I just loved an app! It was boring.", "author": "Alice"}
-
-2025-09-20 04:51:42 | INFO | Processed JSON message: {'message': 'I just tried a story! It was exciting.', 'author': 'Bob'}
-2025-09-20 04:51:42 | INFO | Message received from author: Bob
-2025-09-20 04:51:42 | INFO | Updated author counts: {'Charlie': 36, 'Bob': 35, 'Eve': 30, 'Alice': 33}
-2025-09-20 04:51:43 | INFO | Chart updated successfully for message: {"message": "I just tried a story! It was exciting.", "author": "Bob"}
-
-2025-09-20 04:51:46 | INFO | Processed JSON message: {'message': 'I just found an app! It was funny.', 'author': 'Eve'}
-2025-09-20 04:51:46 | INFO | Message received from author: Eve
-2025-09-20 04:51:46 | INFO | Updated author counts: {'Charlie': 36, 'Bob': 35, 'Eve': 31, 'Alice': 33}
-2025-09-20 04:51:46 | INFO | Chart updated successfully for message: {"message": "I just found an app! It was funny.", "author": "Eve"}
-
-2025-09-20 04:51:49 | INFO | Processed JSON message: {'message': 'I just tried a story! It was boring.', 'author': 'Alice'}
-2025-09-20 04:51:49 | INFO | Message received from author: Alice
-2025-09-20 04:51:49 | INFO | Updated author counts: {'Charlie': 36, 'Bob': 35, 'Eve': 31, 'Alice': 34}
-2025-09-20 04:51:49 | INFO | Chart updated successfully for message: {"message": "I just tried a story! It was boring.", "author": "Alice"}
-
-2025-09-20 04:51:52 | INFO | Processed JSON message: {'message': 'I just tried a movie! It was amazing.', 'author': 'Charlie'}
-2025-09-20 04:51:52 | INFO | Message received from author: Charlie
-2025-09-20 04:51:52 | INFO | Updated author counts: {'Charlie': 37, 'Bob': 35, 'Eve': 31, 'Alice': 34}
-2025-09-20 04:51:52 | INFO | Chart updated successfully for message: {"message": "I just tried a movie! It was amazing.", "author": "Charlie"}
-
-2025-09-20 04:51:55 | INFO | Processed JSON message: {'message': 'I just loved a meme! It was weird.', 'author': 'Alice'}
-2025-09-20 04:51:55 | INFO | Message received from author: Alice
-2025-09-20 04:51:55 | INFO | Updated author counts: {'Charlie': 37, 'Bob': 35, 'Eve': 31, 'Alice': 35}
-2025-09-20 04:51:55 | INFO | Chart updated successfully for message: {"message": "I just loved a meme! It was weird.", "author": "Alice"}
-
-2025-09-20 04:51:57 | INFO | Processed JSON message: {'message': 'I just found a story! It was boring.', 'author': 'Eve'}
-2025-09-20 04:51:57 | INFO | Message received from author: Eve
-2025-09-20 04:51:57 | INFO | Updated author counts: {'Charlie': 37, 'Bob': 35, 'Eve': 32, 'Alice': 35}
-2025-09-20 04:51:57 | INFO | Chart updated successfully for message: {"message": "I just found a story! It was boring.", "author": "Eve"}
-
-2025-09-20 04:52:00 | INFO | Processed JSON message: {'message': 'I just found a meme! It was weird.', 'author': 'Eve'}
-2025-09-20 04:52:00 | INFO | Message received from author: Eve
-2025-09-20 04:52:00 | INFO | Updated author counts: {'Charlie': 37, 'Bob': 35, 'Eve': 33, 'Alice': 35}
-2025-09-20 04:52:00 | INFO | Chart updated successfully for message: {"message": "I just found a meme! It was weird.", "author": "Eve"}
-
-2025-09-20 04:52:03 | INFO | Processed JSON message: {'message': 'I just tried a meme! It was amazing.', 'author': 'Eve'}
-2025-09-20 04:52:03 | INFO | Message received from author: Eve
-2025-09-20 04:52:03 | INFO | Updated author counts: {'Charlie': 37, 'Bob': 35, 'Eve': 34, 'Alice': 35}
-2025-09-20 04:52:04 | INFO | Chart updated successfully for message: {"message": "I just tried a meme! It was amazing.", "author": "Eve"}
-
-2025-09-20 04:52:07 | INFO | Processed JSON message: {'message': 'I just shared a story! It was funny.', 'author': 'Bob'}
-2025-09-20 04:52:07 | INFO | Message received from author: Bob
-2025-09-20 04:52:07 | INFO | Updated author counts: {'Charlie': 37, 'Bob': 36, 'Eve': 34, 'Alice': 35}
-2025-09-20 04:52:07 | INFO | Chart updated successfully for message: {"message": "I just shared a story! It was funny.", "author": "Bob"}
-
-2025-09-20 04:52:10 | INFO | Processed JSON message: {'message': 'I just tried a trick! It was exciting.', 'author': 'Charlie'}
-2025-09-20 04:52:10 | INFO | Message received from author: Charlie
-2025-09-20 04:52:10 | INFO | Updated author counts: {'Charlie': 38, 'Bob': 36, 'Eve': 34, 'Alice': 35}
-2025-09-20 04:52:10 | INFO | Chart updated successfully for message: {"message": "I just tried a trick! It was exciting.", "author": "Charlie"}
-
-2025-09-20 04:52:13 | INFO | Processed JSON message: {'message': 'I just found an app! It was boring.', 'author': 'Bob'}
-2025-09-20 04:52:13 | INFO | Message received from author: Bob
-2025-09-20 04:52:13 | INFO | Updated author counts: {'Charlie': 38, 'Bob': 37, 'Eve': 34, 'Alice': 35}
-2025-09-20 04:52:13 | INFO | Chart updated successfully for message: {"message": "I just found an app! It was boring.", "author": "Bob"}
-
-2025-09-20 04:52:16 | INFO | Processed JSON message: {'message': 'I just tried a meme! It was funny.', 'author': 'Charlie'}
-2025-09-20 04:52:16 | INFO | Message received from author: Charlie
-2025-09-20 04:52:16 | INFO | Updated author counts: {'Charlie': 39, 'Bob': 37, 'Eve': 34, 'Alice': 35}
-2025-09-20 04:52:16 | INFO | Chart updated successfully for message: {"message": "I just tried a meme! It was funny.", "author": "Charlie"}
-
-2025-09-20 04:52:19 | INFO | Processed JSON message: {'message': 'I just tried a movie! It was boring.', 'author': 'Charlie'}
-2025-09-20 04:52:19 | INFO | Message received from author: Charlie
-2025-09-20 04:52:19 | INFO | Updated author counts: {'Charlie': 40, 'Bob': 37, 'Eve': 34, 'Alice': 35}
-2025-09-20 04:52:19 | INFO | Chart updated successfully for message: {"message": "I just tried a movie! It was boring.", "author": "Charlie"}
-
-2025-09-20 04:52:22 | INFO | Processed JSON message: {'message': 'I just saw a movie! It was amazing.', 'author': 'Charlie'}
-2025-09-20 04:52:22 | INFO | Message received from author: Charlie
-2025-09-20 04:52:22 | INFO | Updated author counts: {'Charlie': 41, 'Bob': 37, 'Eve': 34, 'Alice': 35}
-2025-09-20 04:52:22 | INFO | Chart updated successfully for message: {"message": "I just saw a movie! It was amazing.", "author": "Charlie"}
-
-2025-09-20 04:52:24 | INFO | Processed JSON message: {'message': 'I just loved a meme! It was exciting.', 'author': 'Charlie'}
-2025-09-20 04:52:24 | INFO | Message received from author: Charlie
-2025-09-20 04:52:24 | INFO | Updated author counts: {'Charlie': 42, 'Bob': 37, 'Eve': 34, 'Alice': 35}
-2025-09-20 04:52:24 | INFO | Chart updated successfully for message: {"message": "I just loved a meme! It was exciting.", "author": "Charlie"}
-
-2025-09-20 04:52:27 | INFO | Processed JSON message: {'message': 'I just shared an app! It was funny.', 'author': 'Charlie'}
-2025-09-20 04:52:27 | INFO | Message received from author: Charlie
-2025-09-20 04:52:27 | INFO | Updated author counts: {'Charlie': 43, 'Bob': 37, 'Eve': 34, 'Alice': 35}
-2025-09-20 04:52:28 | INFO | Chart updated successfully for message: {"message": "I just shared an app! It was funny.", "author": "Charlie"}
-
-2025-09-20 04:52:31 | INFO | Processed JSON message: {'message': 'I just loved a story! It was boring.', 'author': 'Charlie'}
-2025-09-20 04:52:31 | INFO | Message received from author: Charlie
-2025-09-20 04:52:31 | INFO | Updated author counts: {'Charlie': 44, 'Bob': 37, 'Eve': 34, 'Alice': 35}
-2025-09-20 04:52:31 | INFO | Chart updated successfully for message: {"message": "I just loved a story! It was boring.", "author": "Charlie"}
-
-2025-09-20 04:52:34 | INFO | Processed JSON message: {'message': 'I just loved a movie! It was boring.', 'author': 'Charlie'}
-2025-09-20 04:52:34 | INFO | Message received from author: Charlie
-2025-09-20 04:52:34 | INFO | Updated author counts: {'Charlie': 45, 'Bob': 37, 'Eve': 34, 'Alice': 35}
-2025-09-20 04:52:34 | INFO | Chart updated successfully for message: {"message": "I just loved a movie! It was boring.", "author": "Charlie"}
-
-2025-09-20 04:52:37 | INFO | Processed JSON message: {'message': 'I just loved a movie! It was weird.', 'author': 'Alice'}
-2025-09-20 04:52:37 | INFO | Message received from author: Alice
-2025-09-20 04:52:37 | INFO | Updated author counts: {'Charlie': 45, 'Bob': 37, 'Eve': 34, 'Alice': 36}
-2025-09-20 04:52:37 | INFO | Chart updated successfully for message: {"message": "I just loved a movie! It was weird.", "author": "Alice"}
-
-2025-09-20 04:52:40 | INFO | Processed JSON message: {'message': 'I just shared a meme! It was exciting.', 'author': 'Alice'}
-2025-09-20 04:52:40 | INFO | Message received from author: Alice
-2025-09-20 04:52:40 | INFO | Updated author counts: {'Charlie': 45, 'Bob': 37, 'Eve': 34, 'Alice': 37}
-2025-09-20 04:52:40 | INFO | Chart updated successfully for message: {"message": "I just shared a meme! It was exciting.", "author": "Alice"}
-
-2025-09-20 04:52:43 | INFO | Processed JSON message: {'message': 'I just found a meme! It was weird.', 'author': 'Charlie'}
-2025-09-20 04:52:43 | INFO | Message received from author: Charlie
-2025-09-20 04:52:43 | INFO | Updated author counts: {'Charlie': 46, 'Bob': 37, 'Eve': 34, 'Alice': 37}
-2025-09-20 04:52:43 | INFO | Chart updated successfully for message: {"message": "I just found a meme! It was weird.", "author": "Charlie"}
-
-2025-09-20 04:52:46 | INFO | Processed JSON message: {'message': 'I just saw a story! It was funny.', 'author': 'Bob'}
-2025-09-20 04:52:46 | INFO | Message received from author: Bob
-2025-09-20 04:52:46 | INFO | Updated author counts: {'Charlie': 46, 'Bob': 38, 'Eve': 34, 'Alice': 37}
-2025-09-20 04:52:46 | INFO | Chart updated successfully for message: {"message": "I just saw a story! It was funny.", "author": "Bob"}
-
-2025-09-20 04:52:49 | INFO | Processed JSON message: {'message': 'I just shared a trick! It was weird.', 'author': 'Charlie'}
-2025-09-20 04:52:49 | INFO | Message received from author: Charlie
-2025-09-20 04:52:49 | INFO | Updated author counts: {'Charlie': 47, 'Bob': 38, 'Eve': 34, 'Alice': 37}
-2025-09-20 04:52:49 | INFO | Chart updated successfully for message: {"message": "I just shared a trick! It was weird.", "author": "Charlie"}
-
-2025-09-20 04:52:52 | INFO | Processed JSON message: {'message': 'I just found a story! It was funny.', 'author': 'Eve'}
-2025-09-20 04:52:52 | INFO | Message received from author: Eve
-2025-09-20 04:52:52 | INFO | Updated author counts: {'Charlie': 47, 'Bob': 38, 'Eve': 35, 'Alice': 37}
-2025-09-20 04:52:52 | INFO | Chart updated successfully for message: {"message": "I just found a story! It was funny.", "author": "Eve"}
-
-2025-09-20 04:52:55 | INFO | Processed JSON message: {'message': 'I just shared a movie! It was boring.', 'author': 'Charlie'}
-2025-09-20 04:52:55 | INFO | Message received from author: Charlie
-2025-09-20 04:52:55 | INFO | Updated author counts: {'Charlie': 48, 'Bob': 38, 'Eve': 35, 'Alice': 37}
-2025-09-20 04:52:55 | INFO | Chart updated successfully for message: {"message": "I just shared a movie! It was boring.", "author": "Charlie"}
-
-2025-09-20 04:52:58 | INFO | Processed JSON message: {'message': 'I just shared a story! It was weird.', 'author': 'Eve'}
-2025-09-20 04:52:58 | INFO | Message received from author: Eve
-2025-09-20 04:52:58 | INFO | Updated author counts: {'Charlie': 48, 'Bob': 38, 'Eve': 36, 'Alice': 37}
-2025-09-20 04:52:58 | INFO | Consumer interrupted by user.
+2025-09-22 12:18:04 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:18:04.793323', 'temperature': 140.8}
+2025-09-22 12:18:09 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:18:09.803658', 'temperature': 141.2}
+2025-09-22 12:18:14 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:18:14.812093', 'temperature': 141.6}
+2025-09-22 12:18:19 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:18:19.819536', 'temperature': 142.0}
+2025-09-22 12:18:24 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:18:24.828068', 'temperature': 142.2}
+2025-09-22 12:18:29 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:18:29.832762', 'temperature': 142.0}
+2025-09-22 12:18:34 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:18:34.839247', 'temperature': 142.2}
+2025-09-22 12:18:39 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:18:39.844080', 'temperature': 142.0}
+2025-09-22 12:18:44 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:18:44.854352', 'temperature': 142.2}
+2025-09-22 12:18:49 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:18:49.859844', 'temperature': 142.0}
+2025-09-22 12:18:54 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:18:54.864410', 'temperature': 142.2}
+2025-09-22 12:18:59 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:18:59.868634', 'temperature': 142.0}
+2025-09-22 12:19:04 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:19:04.875526', 'temperature': 142.2}
+2025-09-22 12:19:06 | INFO | STALL DETECTED at 2025-09-22T17:19:04.875526: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:19:09 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:19:09.884176', 'temperature': 142.0}
+2025-09-22 12:19:11 | INFO | STALL DETECTED at 2025-09-22T17:19:09.884176: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:19:14 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:19:14.892136', 'temperature': 142.2}
+2025-09-22 12:19:16 | INFO | STALL DETECTED at 2025-09-22T17:19:14.892136: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:19:19 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:19:19.898265', 'temperature': 142.0}
+2025-09-22 12:19:21 | INFO | STALL DETECTED at 2025-09-22T17:19:19.898265: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:19:24 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:19:24.906437', 'temperature': 142.2}
+2025-09-22 12:19:26 | INFO | STALL DETECTED at 2025-09-22T17:19:24.906437: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:19:29 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:19:29.914966', 'temperature': 142.0}
+2025-09-22 12:19:30 | INFO | STALL DETECTED at 2025-09-22T17:19:29.914966: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:19:34 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:19:34.918587', 'temperature': 142.2}
+2025-09-22 12:19:35 | INFO | STALL DETECTED at 2025-09-22T17:19:34.918587: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:19:39 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:19:39.926350', 'temperature': 142.0}
+2025-09-22 12:19:40 | INFO | STALL DETECTED at 2025-09-22T17:19:39.926350: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:19:44 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:19:44.930619', 'temperature': 142.2}
+2025-09-22 12:19:45 | INFO | STALL DETECTED at 2025-09-22T17:19:44.930619: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:19:49 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:19:49.936646', 'temperature': 142.0}
+2025-09-22 12:19:50 | INFO | STALL DETECTED at 2025-09-22T17:19:49.936646: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:19:54 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:19:54.939903', 'temperature': 142.2}
+2025-09-22 12:19:55 | INFO | STALL DETECTED at 2025-09-22T17:19:54.939903: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:19:59 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:19:59.947199', 'temperature': 142.0}
+2025-09-22 12:20:00 | INFO | STALL DETECTED at 2025-09-22T17:19:59.947199: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:20:05 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:20:04.955083', 'temperature': 142.2}
+2025-09-22 12:20:05 | INFO | STALL DETECTED at 2025-09-22T17:20:04.955083: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:20:09 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:20:09.960318', 'temperature': 142.0}
+2025-09-22 12:20:10 | INFO | STALL DETECTED at 2025-09-22T17:20:09.960318: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:20:14 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:20:14.969857', 'temperature': 142.2}
+2025-09-22 12:20:15 | INFO | STALL DETECTED at 2025-09-22T17:20:14.969857: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:20:19 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:20:19.979721', 'temperature': 142.0}
+2025-09-22 12:20:20 | INFO | STALL DETECTED at 2025-09-22T17:20:19.979721: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:20:24 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:20:24.988046', 'temperature': 142.2}
+2025-09-22 12:20:27 | INFO | STALL DETECTED at 2025-09-22T17:20:24.988046: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:20:30 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:20:29.996784', 'temperature': 142.0}
+2025-09-22 12:20:32 | INFO | STALL DETECTED at 2025-09-22T17:20:29.996784: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:20:35 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:20:35.005248', 'temperature': 142.2}
+2025-09-22 12:20:37 | INFO | STALL DETECTED at 2025-09-22T17:20:35.005248: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:20:40 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:20:40.012708', 'temperature': 142.0}
+2025-09-22 12:20:42 | INFO | STALL DETECTED at 2025-09-22T17:20:40.012708: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:20:45 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:20:45.020190', 'temperature': 142.2}
+2025-09-22 12:20:47 | INFO | STALL DETECTED at 2025-09-22T17:20:45.020190: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:20:50 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:20:50.028918', 'temperature': 142.0}
+2025-09-22 12:20:51 | INFO | STALL DETECTED at 2025-09-22T17:20:50.028918: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:20:55 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:20:55.036215', 'temperature': 142.2}
+2025-09-22 12:20:57 | INFO | STALL DETECTED at 2025-09-22T17:20:55.036215: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:21:00 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:21:00.044509', 'temperature': 142.0}
+2025-09-22 12:21:01 | INFO | STALL DETECTED at 2025-09-22T17:21:00.044509: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:21:05 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:21:05.050125', 'temperature': 142.2}
+2025-09-22 12:21:06 | INFO | STALL DETECTED at 2025-09-22T17:21:05.050125: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:21:10 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:21:10.057147', 'temperature': 142.0}
+2025-09-22 12:21:12 | INFO | STALL DETECTED at 2025-09-22T17:21:10.057147: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:21:15 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:21:15.067135', 'temperature': 142.2}
+2025-09-22 12:21:17 | INFO | STALL DETECTED at 2025-09-22T17:21:15.067135: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:21:20 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:21:20.073228', 'temperature': 142.0}
+2025-09-22 12:21:22 | INFO | STALL DETECTED at 2025-09-22T17:21:20.073228: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:21:25 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:21:25.076518', 'temperature': 142.2}
+2025-09-22 12:21:27 | INFO | STALL DETECTED at 2025-09-22T17:21:25.076518: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:21:30 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:21:30.085289', 'temperature': 142.0}
+2025-09-22 12:21:32 | INFO | STALL DETECTED at 2025-09-22T17:21:30.085289: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:21:35 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:21:35.093027', 'temperature': 142.2}
+2025-09-22 12:21:37 | INFO | STALL DETECTED at 2025-09-22T17:21:35.093027: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:21:40 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:21:40.101431', 'temperature': 142.0}
+2025-09-22 12:21:42 | INFO | STALL DETECTED at 2025-09-22T17:21:40.101431: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:21:45 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:21:45.109578', 'temperature': 142.2}
+2025-09-22 12:21:47 | INFO | STALL DETECTED at 2025-09-22T17:21:45.109578: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:21:50 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:21:50.113839', 'temperature': 142.0}
+2025-09-22 12:21:52 | INFO | STALL DETECTED at 2025-09-22T17:21:50.113839: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:21:55 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:21:55.120102', 'temperature': 142.2}
+2025-09-22 12:21:57 | INFO | STALL DETECTED at 2025-09-22T17:21:55.120102: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:22:00 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:22:00.123494', 'temperature': 142.0}
+2025-09-22 12:22:02 | INFO | STALL DETECTED at 2025-09-22T17:22:00.123494: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:22:05 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:22:05.132614', 'temperature': 142.2}
+2025-09-22 12:22:07 | INFO | STALL DETECTED at 2025-09-22T17:22:05.132614: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:22:10 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:22:10.140019', 'temperature': 142.0}
+2025-09-22 12:22:12 | INFO | STALL DETECTED at 2025-09-22T17:22:10.140019: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:22:15 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:22:15.145881', 'temperature': 142.2}
+2025-09-22 12:22:17 | INFO | STALL DETECTED at 2025-09-22T17:22:15.145881: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:22:20 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:22:20.154633', 'temperature': 142.0}
+2025-09-22 12:22:22 | INFO | STALL DETECTED at 2025-09-22T17:22:20.154633: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:22:25 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:22:25.163263', 'temperature': 142.2}
+2025-09-22 12:22:27 | INFO | STALL DETECTED at 2025-09-22T17:22:25.163263: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:22:30 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:22:30.167683', 'temperature': 142.0}
+2025-09-22 12:22:32 | INFO | STALL DETECTED at 2025-09-22T17:22:30.167683: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:22:35 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:22:35.172602', 'temperature': 142.2}
+2025-09-22 12:22:37 | INFO | STALL DETECTED at 2025-09-22T17:22:35.172602: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:22:40 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:22:40.180571', 'temperature': 142.0}
+2025-09-22 12:22:42 | INFO | STALL DETECTED at 2025-09-22T17:22:40.180571: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:22:45 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:22:45.188516', 'temperature': 142.2}
+2025-09-22 12:22:47 | INFO | STALL DETECTED at 2025-09-22T17:22:45.188516: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:22:50 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:22:50.196103', 'temperature': 142.0}
+2025-09-22 12:22:52 | INFO | STALL DETECTED at 2025-09-22T17:22:50.196103: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:22:55 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:22:55.204137', 'temperature': 142.2}
+2025-09-22 12:22:57 | INFO | STALL DETECTED at 2025-09-22T17:22:55.204137: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:23:00 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:23:00.212494', 'temperature': 142.0}
+2025-09-22 12:23:02 | INFO | STALL DETECTED at 2025-09-22T17:23:00.212494: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:23:05 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:23:05.218092', 'temperature': 142.2}
+2025-09-22 12:23:07 | INFO | STALL DETECTED at 2025-09-22T17:23:05.218092: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:23:10 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:23:10.226978', 'temperature': 142.0}
+2025-09-22 12:23:12 | INFO | STALL DETECTED at 2025-09-22T17:23:10.226978: Temp stable at 142.0°F over last 10 readings.
+2025-09-22 12:23:15 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:23:15.235017', 'temperature': 142.2}
+2025-09-22 12:23:17 | INFO | STALL DETECTED at 2025-09-22T17:23:15.235017: Temp stable at 142.2°F over last 10 readings.
+2025-09-22 12:23:20 | INFO | Processed JSON message: {'timestamp': '2025-09-22T17:23:20.241229', 'temperature': 142.0}
+2025-09-22 12:23:22 | INFO | STALL DETECTED at 2025-09-22T17:23:20.241229: Temp stable at 142.0°F over last 10 readings.
