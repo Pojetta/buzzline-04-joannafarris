@@ -276,12 +276,12 @@ This consumer focuses on **keyword frequency** — specifically, how often each 
 This is interesting because it highlights which words or topics dominate the conversation as new messages arrive.  
 
 ### Chart Type
-I will use a **bar chart** to visualize keyword counts.  
-A bar chart makes it easy to compare which keywords are mentioned most frequently as the stream continues.  
+I will use a **stacked bar chart** to visualize keyword counts by author.  
+A stacked bar chart (authors on the x-axis; stacks = keywords) makes it easy to compare which keywords each author mentions most as the stream continues.  
 
 ### How to Run
 
 Run the producer (provided, do not modify):
 ```bash
-python3 -m producers.json_producer_case
+python3 -m producers.project_producer_case
 
